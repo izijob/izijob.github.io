@@ -1,0 +1,68 @@
+body
+{
+	background: rgb(0,212,238); no-repeat;
+	background-size: cover;
+}
+
+.section
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.connexion
+{
+	height: 350px;
+	width: 40%;
+	padding: 25px;
+	background-color: rgb(46,130,146);
+	text-align: justify;
+	border: solid black 1px;
+	overflow: auto;
+}
+
+fieldset
+{
+	padding: 20px;
+}
+
+.contact
+{
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.contact:hover
+{
+	text-shadow: black 2px 2px;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+footer
+{
+	background: rgb(46,130,146);
+	position: absolute;
+	width: 100%;
+	height: 9%;
+	bottom: 0px;
+	left: 0px;
+	border-top: solid black 1px;
+}

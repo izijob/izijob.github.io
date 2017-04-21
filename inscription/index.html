@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>S'inscrire</title>
+  </head>
+  <body>
+    <img class="logo" src="mini_logo.png" alt="logo">
+    <header>
+      <p class="titre"><br>Inscription</p>
+    </header>
+    <div class="formulaire">
+      <form method="post" action="../validation/index.html">
+        <fieldset>
+          <legend>Inscription</legend>
+          <br>
+          <label for="nom">Nom</label>
+          <input type="text" name="nom" id="nom" autofocus/>
+          <br>
+          <br>
+          <br>
+          <label for="prenom">Pr&eacute;nom</label>
+          <input type="text" name="prenom" id="prenom" autofocus/>
+          <br>
+          <br>
+          <p>
+           <label for="categorie">Vous êtes ?</label><br />
+           <select name="categorie" id="categorie" value="--choisir--">
+              <option value="etudiant">Un &eacute;tudiant</option>
+              <option value="professionnel">Un professionnel</option>
+              <option value="particulier">Un particulier</option>
+           </select>
+          </p>
+          <br>
+          <label for="email">Adresse email</label>
+          <input type="email" name="email" id="email" autofocus/>
+          <br>
+          <br>
+          <br>
+          <label for="mdp">Mot de passe</label>
+          <input type="password" name="mdp" id="mdp" />
+          <br>
+          <br>
+          <br>
+          <label for="mdpbis">Confirmer le mot de passe</label>
+          <input type="password" name="mdpbis" id="mdpbis" autofocus/>
+          <br>
+          <br>
+          <br>
+          <input type="submit" value="Valider">
+          <br>
+          <br>
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <a href="#">Nous contacter</a>
+    </footer>
+  </body>
+</html>

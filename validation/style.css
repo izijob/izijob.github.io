@@ -1,0 +1,28 @@
+body
+{
+	display: flex;
+	background: rgb(0,212,238); no-repeat;
+	background-size: cover;
+	align-items: auto;
+}
+
+div
+{
+	background: rgb(46,130,146);
+	margin: auto;
+	width: 60%;
+	border: solid black 1px;
+	box-shadow: 5px 5px black;
+	padding: 25px;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
